@@ -1,3 +1,479 @@
-baseURL = "http://example.org/"
+# Site settings
+baseurl = "https://mepe.thewhether.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "MEPE Fellowship Program"
+theme = "hugo-agency-theme"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Your name"
+  description = "The Mary Ellen Pleasant Entrepreneurship (MEPE) Fellowship is a 10-week virtual internship with The Whether for Spring 2019."
+  # email = "your@email.com"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    # brand = "The Whether"
+    # Optional logo as brand stored in img/
+    logo = "logo.svg"
+    overview = "Overview"
+    portfolio = "How To Apply"
+    about = "Eligibility & Tips"
+    team = "MEP"
+    contact = "Contact Us"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+     # url = "https://betterweekdays.github.io/mepe/#portfolio"
+     # name = "Apply Now"
+     # weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    #title = "Mary Ellen Pleasant Entrepreneur (MEPE) Fellowship"
+    subtitle = "Mary Ellen Pleasant Entrepreneur (MEPE) Fellowship"
+    buttonText = "More Information"
+
+
+  # Overview section
+  [params.overview]
+    enable = true
+    title = "Overview"
+    #subtitle = "3 sections for history of MEP, overview of internship (maybe assessment as well) and participating schools respectively"
+    #test = "Test to add another component here"
+
+    [[params.overview.row]]
+
+    [[params.overview.row.list]]
+      icon = "fa-globe"
+      title = "What is MEPE Fellowship about?"
+      #img = "1.jpg"
+      #source = "Source: the Paris Review"
+      # url = "http://blackinhistory.tumblr.com/post/61451113376/mary-ellen-pleasant#.WxlEudMvzBJ"
+
+      [[params.overview.row.list.text]]
+        textbefore = "The Mary Ellen Pleasant Entrepreneurship (MEPE) Fellowship is a 10-week virtual internship with The Whether for Spring 2019."
+
+      [[params.overview.row.list.text]]
+        textbefore = "Accepted fellows will be paid up to $2,500 and build a mini-startup focused on student coaching using "
+        linktext = "Soft Skills and Values Assessment"
+        url = "https://check.thewhether.com/assessment/"
+        textafter = "."
+
+    [[params.overview.row]]
+
+    [[params.overview.row.list]]
+      icon = "fa-briefcase"
+      title = "What commitments do I need to make for the internship?"
+
+      [[params.overview.row.list.text]]
+      textbefore = "Fellows are expected to commit at least 4 hours a week (about 45 minutes a day) to the internship. A 10-week curriculum based on key startup principles will be tied to campus engagement goals. It will also incorporate videos, readings, and quizzes."
+
+      #url = "#"
+
+
+    [[params.overview.row]]
+
+    [[params.overview.row.list]]
+      icon = "fa-graduation-cap"
+      title = "What will I get out of the 10-week experience?"
+
+      [[params.overview.row.list.text]]
+      textbefore= "1. Practical experience working at a start-up you can put on your resume."
+
+      [[params.overview.row.list.text]]
+      textbefore= "2. A way to help other students on campus be successful."
+
+      [[params.overview.row.list.text]]
+      textbefore= "3. Leadership and team collaboration skills through the Soft Skills and Values Assessment."
+
+      [[params.overview.row.list.text]]
+      textbefore= "4. A paid trip to an awards dinner celebrating your success and networking with other entrepreneurial professionals at the end of the internship."
+
+      #url = "#"
+
+
+    [[params.overview.specialrow]]
+
+    [[params.overview.specialrow.list]]
+      icon = "fa-briefcase"
+      title = "What dates should I be aware of?"
+
+      [[params.overview.specialrow.list.text]]
+      description = "December 10, 2018 - Fellowship Application Deadline"
+
+      [[params.overview.specialrow.list.text]]
+      description = "January 14, 2019 - Fellows Announced"
+
+      [[params.overview.specialrow.list.text]]
+      description = "February 2019 - Internship Starts"
+
+      #url = "#"
+
+  # Requirements section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "How To Apply"
+    # subtitle = "There are 2 parts to the application. You will receive link to Part 2 only upon successful completion of Part 1."
+
+    #[params.portfolio.modal]
+     # client = "Client"
+     # date = "Date"
+     # category = "Category"
+     # buttonText = "Close project"
+
+
+    [[params.portfolio.row]]
+
+      icon = "fa-compass"
+      title = "Part 1 - Show Your Interest"
+
+    [[params.portfolio.row.list]]
+      textbefore = "1. Create an account on"
+      linktext = "The Whether"
+      url = "https://www.thewhether.com/"
+      textafter = "."
+
+    [[params.portfolio.row.list]]
+      textbefore = "2. Favorite the "
+      linktext = "'Mary Ellen Pleasant Entrepreneur Fellowship' article"
+      url = "https://www.thewhether.com/article/26799702"
+      textafter = " in The Whether."
+
+    [[params.portfolio.row.list]]
+      textbefore = "3. Complete your Soft Skills and Values Assessment in The Whether."
+
+    [[params.portfolio.row.list]]
+      textbefore = "4. "
+      linktext = "Submit Part 1 of your application"
+      url = "https://goo.gl/forms/53FVWFKcA8gTIRK43"
+      textafter = "."
+
+    [[params.portfolio.row]]
+
+      icon = "fa-compass"
+      title = "Part 2 - Show Your Creativity"
+      #notice = "Please note that you will receive link to Part 2 only upon successful completion of Part 1."
+
+    [[params.portfolio.row.list]]
+      textbefore = "1. Convince at least 5 friends to complete their Soft Skills and Values Assessment."
+
+    #[[params.portfolio.row.list]]
+      #description = "2.Share on social media."
+
+    [[params.portfolio.row.list]]
+      textbefore = "2. Create a 2-minute video (YouTube, etc.) pitching your idea to help 500 students choose a major, pick courses, or prepare for an internship interview."
+
+    [[params.portfolio.row.list]]
+      textbefore = "3. "
+      linktext = "Submit Part 2 of your application"
+      url = "https://goo.gl/forms/D4DLQovL9zRkzUys2"
+      textafter = "."
+    # Elligibilty section
+  [params.about]
+    enable = true
+    title = "Eligibility & Tips"
+    # subtitle = "Use the existing template to make a timeline"
+    # endpoint = "Take The<br>Venture<br>Now!"
+
+    [[params.about.row]]
+
+    [[params.about.row.list]]
+      description = "1. Any student that attends an MEPE Fellows partner school may apply."
+
+    [[params.about.row.list]]
+      description = "2. We recommend students who are exceptional, high-performing who will not graduate prior to Spring 2019."
+
+    [[params.about.row.list]]
+      description = "3. We recommend students who have a minimum 3.0 GPA and have demonstrated leadership experience."
+
+    [[params.about.row.list]]
+      description = "4. Students are encouraged to apply as a team (not to exceed 5 members). Each team member must submit their own application. The criteria in Part 2 of the application can include team members."
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    #[[params.about.events]]
+     # img = "1.jpg"
+     # date = "August 6, 2018"
+     # title = "Confirmation From University Presidents"
+     # description = "University presidents commit to be MEPE partners."
+
+    #[[params.about.events]]
+     # img = "2.jpg"
+     # date = "August 20, 2018"
+     # title = "Setup Call Completed"
+     # description = "Setup calls between MEPE partners and The Whether are completed."
+
+    #[[params.about.events]]
+     # img = "3.jpg"
+     # date = "December 10, 2018"
+     # title = "Application Due For Students"
+     # description = "Students must complete both Part 1 and Part 2 of their applications."
+
+    #[[params.about.events]]
+     # img = "4.jpg"
+     # date = "January 14, 2019"
+     # title = "Results Release"
+      #description = "MEPE fellows are announced."
+
+    #[[params.about.events]]
+     # img = "5.jpg"
+     # date = "Feburary 4, 2019"
+      #title = "Program Starts"
+     # description = "Here starts your 10-week virtual internship with The Whether."
+
+
+  # Recipients section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Mary Ellen Pleasant"
+    # notice = "The result will be released on January 14, 2019. Stay tuned!"
+    # description = "If you have any questions, please see Contact Us section for details."
+
+    [[params.team.row]]
+
+    [[params.team.row.list]]
+      #icon = "fa-globe"
+      #title = "What is MEPE Fellowship about?"
+      img = "1.jpg"
+      source = "Source: the Paris Review"
+      # url = "http://blackinhistory.tumblr.com/post/61451113376/mary-ellen-pleasant#.WxlEudMvzBJ"
+
+      [[params.team.row.list.text]]
+        description = "[Mary Ellen Pleasant](http://blackinhistory.tumblr.com/post/61451113376/mary-ellen-pleasant#.WxlEudMvzBJ) is a very successful 19th-century African American entrepreneur, financier, real estate magnate and abolitionist who identified herself as ‘a capitalist by profession’ in the 1890 United States Census."
+
+      [[params.team.row.list.text]]
+        description = "Pleasant came from humble beginnings being born into slavery, but together with her husband, through smart investments and business dealings, they would amass a fortune estimated to be around 30 million dollars at the time. She made active contributions to the abolitionist movement and fighting for civil rights in California. She also used her influence and wealth to employ Blacks (freed and runaways from the underground) at her various businesses."
+
+      [[params.team.row.list.text]]
+        description = "[She](https://en.wikipedia.org/wiki/Mary_Ellen_Pleasant) was a friend and financial supporter of John Brown, and was well known in abolitionist circles. After the Civil War, she took her battles to the courts in the 1860s and won several civil rights victories, one of which was cited and upheld in the 1980s and resulted in her being called \"The Mother of Human Rights in California\"."
+
+      [[params.team.row.list.text]]
+        description = "The MEPE Fellowship embodies her vision, spirit, and desire to help others. By providing fellows an opportunity to showcase their entrepreneurial talent, fellows can make a significant impact on campus with other students."
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    # I used 230px*230px for alignment actually.
+    #[[params.team.members]]
+     # img = "1.jpg"
+      #name = "Name"
+      #position = "NameOf University"
+      #reportsTo = "CTO"
+      #livesIn = "[Munich, Germany](#some-maps-url)"
+      #scope = [
+      #  "UX for [member dashboard](#)",
+      #  "Maintainer for [awesome-project](#)",
+      #  "Open Source [community management](#)"
+      #]
+      # For bio markdown and even multiline strings are available.
+      #bio = """Bio here."""
+      #social = [
+      #  ["fa-twitter", "#"],
+      #  ["fa-facebook", "#"],
+      #  ["fa-linkedin", "#"]
+      #]
+
+    #[[params.team.members]]
+     # img = "2.jpg"
+      #name = "Name"
+      #position = "NameOf University"
+      #bio = """Bio here."""
+
+    #[[params.team.members]]
+     # img = "3.jpg"
+      #name = "Name"
+      #position = "NameOf University"
+      #bio = """Bio here."""
+
+  # Client section
+    [params.clients_list]
+      enable = true
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.clients]]
+        logo = "1.jpg"
+        link = "https://www.gatesfoundation.org/"
+
+      [[params.clients]]
+        logo = "2.jpg"
+        link = "https://cmsi.gse.upenn.edu/"
+
+      [[params.clients]]
+        logo = "3.jpg"
+        link = "https://www.thewhether.com/"
+
+  # Contact section
+  # This part is done with additional reference to hugo-elate-theme
+  [params.contact]
+    enable = true
+    title = "Contact us"
+    # subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    # description = "test for color"
+    # buttonText = "Send message"
+    # netlify = true
+
+    [[params.contact.row]]
+
+    [[params.contact.row.list]]
+      description = "Have a question? Email us."
+      #url = "#"
+
+    [[params.contact.row.list]]
+      description = "success@thewhether.com"
+      #url = "#"
+
+    #[[params.contact.row.list]]
+      #description = "Email: someone@thewhether.com"
+      #url = "#"
+
+    #[[params.contact.row.list]]
+      #description = "Website: [www.thewhether.com/](https://www.thewhether.com/)"
+      #url = "https://www.thewhether.com/"
+
+    # Available icons: http://simplelineicons.com/
+    #details = [
+     #   ["fa-globe", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+      #  ["icon-phone", "(123) 465-6789"],
+       # ["icon-envelope", '<a href>someone@thewhether.com</a>'],
+        #["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+      #]
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    # email = "ann@betterweekdays.com"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    #[params.contact.captcha]
+      # sitekey = ""
+
+    # 'warning' defines error messages for invalid inputs
+    #[params.contact.form.name]
+     # text = "Your Name *"
+      #warning = "Please enter your name."
+
+   # [params.contact.form.email]
+     # text = "Your Email *"
+    #  warning = "Please enter your email address."
+
+    #[params.contact.form.phone]
+     # text = "Your Phone *"
+     # warning = "Please enter your phone number."
+
+   # [params.contact.form.message]
+    #  text = "Your Message *"
+    #  warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Published under the Apache License 2.0."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/TheWhetherApp"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "https://www.facebook.com/TheWhetherApp/"
+      title = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "https://www.linkedin.com/company/better-weekdays/"
+      title = "LinkedIn"
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "https://www.betterweekdays.com/privacy-policy/?__hstc=25932066.e9bad24cd32ae340c0a776b49dc8f55e.1528221370202.1528391488546.1528395973619.4&__hssc=25932066.2.1528395973619&__hsfp=3288302066"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "https://www.betterweekdays.com/terms-of-service/?__hstc=25932066.e9bad24cd32ae340c0a776b49dc8f55e.1528221370202.1528391488546.1528395973619.4&__hssc=25932066.1.1528395973619&__hsfp=3288302066"
