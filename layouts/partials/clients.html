@@ -7,9 +7,10 @@
       </div>
     </div>
     <div class="row flexbox{{ if .Site.Params.clients_list.center }} flexbox-center{{ end }}">
-
-      {{ range .Site.Params.clients }}
-        <div class="col-md-4 col-sm-6 col">
+      <div class="col-md-12">
+      {{ range .Site.Params.clients.first }}
+        <!-- <div class="col-md-3 col-sm-6 col offset-md-3"> -->
+        <div class="col-md-3 col-sm-6 col">
           {{ $url := printf "img/logos/%s" .logo }}
           {{ if .link }}
             <a href="{{ .link }}">
@@ -20,7 +21,46 @@
           {{ end }}
         </div>
       {{ end }}
-
+      {{ range .Site.Params.clients.empty }}
+        <!-- <div class="col-md-3 col-sm-6 col offset-md-3"> -->
+        <div class="col-md-1">
+          {{ $url := printf "img/logos/%s" .logo }}
+          {{ if .link }}
+            <a href="{{ .link }}">
+              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+            </a>
+          {{ else }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ range .Site.Params.clients.second }}
+        <!-- <div class="col-md-3 col-sm-6 col offset-md-3"> -->
+        <div class="col-md-3 col-md-offset-1">
+          {{ $url := printf "img/logos/%s" .logo }}
+          {{ if .link }}
+            <a href="{{ .link }}">
+              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+            </a>
+          {{ else }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ range .Site.Params.clients.third }}
+        <!-- <div class="col-md-3 col-sm-6 col offset-md-3"> -->
+        <div class="col-md-3 col-md-offset-2">
+          {{ $url := printf "img/logos/%s" .logo }}
+          {{ if .link }}
+            <a href="{{ .link }}">
+              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+            </a>
+          {{ else }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+          {{ end }}
+        </div>
+      {{ end }}
+      </div>
     </div>
   </div>
 </aside>

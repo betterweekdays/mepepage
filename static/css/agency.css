@@ -10,7 +10,9 @@ h3
 .overview-pic img
 p.large
 p.super-large
-header .intro-text .intro-heading (both)*/
+header .intro-text .intro-heading (both)
+section
+@media(min-width:768px) {section {*/
 
 /*whats originally in the theme*/
 body {
@@ -220,23 +222,23 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-brand>img {
-    height: 50px;
-    max-width: 250px;
+    height: 40px;
+    max-width: 200px;
     margin: -15px;
 }
 
 @media(min-width:768px) {
     .navbar-brand>img {
-        height: 50px;
-        max-width: 300px;
+        height: 40px;
+        max-width: 240px;
         margin: -15px;
     }
 }
 
 @media(min-width:992px) {
     .navbar-brand>img {
-        height: 50px;
-        max-width: 400px;
+        height: 40px;
+        max-width: 320px;
         margin: -15px;
     }
 }
@@ -376,12 +378,12 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 35px 0;
 }
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 0;
     font-size: 40px;
 }
 
@@ -396,7 +398,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 85px 0;
     }
 }
 

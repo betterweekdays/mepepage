@@ -175,7 +175,7 @@ googleAnalytics = ""
 
     [[params.portfolio.row]]
 
-      icon = "fa-compass"
+      icon = "fa fa-codepen"
       title = "Part 1 - Show Your Interest"
 
     [[params.portfolio.row.list]]
@@ -201,7 +201,7 @@ googleAnalytics = ""
 
     [[params.portfolio.row]]
 
-      icon = "fa-compass"
+      icon = "fa fa-expand"
       title = "Part 2 - Show Your Creativity"
       #notice = "Please note that you will receive link to Part 2 only upon successful completion of Part 1."
 
@@ -349,16 +349,20 @@ googleAnalytics = ""
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
+      [[params.clients.first]]
         logo = "1.jpg"
         link = "https://www.gatesfoundation.org/"
 
-      [[params.clients]]
-        logo = "2.jpg"
+      # [[params.clients.empty]]
+        # logo = "2.jpg"
+        # link = "https://cmsi.gse.upenn.edu/"
+
+      [[params.clients.second]]
+        logo = "3.jpg"
         link = "https://cmsi.gse.upenn.edu/"
 
-      [[params.clients]]
-        logo = "3.jpg"
+      [[params.clients.third]]
+        logo = "4.jpg"
         link = "https://www.thewhether.com/"
 
   # Contact section
