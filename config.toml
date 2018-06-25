@@ -5,7 +5,7 @@ title = "MEPE Fellowship Program"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-30394282-7"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -19,7 +19,7 @@ googleAnalytics = ""
   # information about you and your website.
   name = "Your name"
   description = "The Mary Ellen Pleasant Entrepreneurship (MEPE) Fellowship is a 10-week virtual internship with The Whether for Spring 2019."
-  # email = "your@email.com"
+  # email = "success@betterweekdays.com"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -101,7 +101,7 @@ googleAnalytics = ""
         textbefore = "The Mary Ellen Pleasant Entrepreneurship (MEPE) Fellowship is a 10-week virtual internship with The Whether for Spring 2019."
 
       [[params.overview.row.list.text]]
-        textbefore = "Accepted fellows will be paid up to $2,500 and build a mini-startup focused on student coaching using "
+        textbefore = "Accepted fellows will be paid up to $2,500 and build a mini-startup focused on student coaching using the "
         linktext = "Soft Skills and Values Assessment"
         url = "https://check.thewhether.com/assessment/"
         textafter = "."
@@ -113,7 +113,7 @@ googleAnalytics = ""
       title = "What commitments do I need to make for the internship?"
 
       [[params.overview.row.list.text]]
-      textbefore = "Fellows are expected to commit at least 4 hours a week (about 45 minutes a day) to the internship. A 10-week curriculum based on key startup principles will be tied to campus engagement goals. It will also incorporate videos, readings, and quizzes."
+      textbefore = "Fellows are expected to commit at least 4 hours a week (about 45 minutes a day) to the internship. A 10-week curriculum based on key startup principles will be tied to campus engagement goals. Fellows will also incorporate videos, readings, and quizzes."
 
       #url = "#"
 
@@ -125,16 +125,16 @@ googleAnalytics = ""
       title = "What will I get out of the 10-week experience?"
 
       [[params.overview.row.list.text]]
-      textbefore= "1. Practical experience working at a start-up you can put on your resume."
+      textbefore= "1. A practical paid experience working at a start-up you can put on your resume."
 
       [[params.overview.row.list.text]]
-      textbefore= "2. A way to help other students on campus be successful."
+      textbefore= "2. A way to help other students on campus with their careers."
 
       [[params.overview.row.list.text]]
       textbefore= "3. Leadership and team collaboration skills through the Soft Skills and Values Assessment."
 
       [[params.overview.row.list.text]]
-      textbefore= "4. A paid trip to an awards dinner celebrating your success and networking with other entrepreneurial professionals at the end of the internship."
+      textbefore= "4. A potential trip to an awards dinner celebrating your success and networking with other entrepreneurial professionals at the end of the internship."
 
       #url = "#"
 
@@ -212,7 +212,7 @@ googleAnalytics = ""
       #description = "2.Share on social media."
 
     [[params.portfolio.row.list]]
-      textbefore = "2. Create a 2-minute video (YouTube, etc.) pitching your idea to help 500 students choose a major, pick courses, or prepare for an internship interview."
+      textbefore = "2. Create a 2-minute video (YouTube, etc.) pitching how you (or your team) would creatively engage 500 students choose a major, pick courses, or prepare for an internship interview."
 
     [[params.portfolio.row.list]]
       textbefore = "3. "
@@ -238,7 +238,7 @@ googleAnalytics = ""
       description = "3. We recommend students who have a minimum 3.0 GPA and have demonstrated leadership experience."
 
     [[params.about.row.list]]
-      description = "4. Students are encouraged to apply as a team (not to exceed 5 members). Each team member must submit their own application. The criteria in Part 2 of the application can include team members."
+      description = "4. Students are encouraged to apply as a team (not to exceed 5 total members). Each team member must submit their own application. The 'convince 5 friends' criteria in Part 2 of the application can include team members."
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -293,13 +293,13 @@ googleAnalytics = ""
       # url = "http://blackinhistory.tumblr.com/post/61451113376/mary-ellen-pleasant#.WxlEudMvzBJ"
 
       [[params.team.row.list.text]]
-        description = "[Mary Ellen Pleasant](http://blackinhistory.tumblr.com/post/61451113376/mary-ellen-pleasant#.WxlEudMvzBJ) is a very successful 19th-century African American entrepreneur, financier, real estate magnate and abolitionist who identified herself as ‘a capitalist by profession’ in the 1890 United States Census."
+        description = "[Mary Ellen Pleasant](http://blackinhistory.tumblr.com/post/61451113376/mary-ellen-pleasant#.WxlEudMvzBJ) was a very successful 19th-century African American entrepreneur, financier, real estate magnate and abolitionist who identified as ‘a capitalist by profession’ in the 1890 United States Census."
 
       [[params.team.row.list.text]]
-        description = "Pleasant came from humble beginnings being born into slavery, but together with her husband, through smart investments and business dealings, they would amass a fortune estimated to be around 30 million dollars at the time. She made active contributions to the abolitionist movement and fighting for civil rights in California. She also used her influence and wealth to employ Blacks (freed and runaways from the underground) at her various businesses."
+        description = "Pleasant came from humble beginnings being born into slavery. With her husband, through smart investments and business dealings, she amassed a fortune estimated to be around $30 million dollars. She made active contributions to the abolitionist movement and fought for civil rights in California. She also used her influence and wealth to employ Black Americans, freed and runaway slaves from the underground railroad, at her various businesses."
 
       [[params.team.row.list.text]]
-        description = "[She](https://en.wikipedia.org/wiki/Mary_Ellen_Pleasant) was a friend and financial supporter of John Brown, and was well known in abolitionist circles. After the Civil War, she took her battles to the courts in the 1860s and won several civil rights victories, one of which was cited and upheld in the 1980s and resulted in her being called \"The Mother of Human Rights in California\"."
+        description = "[She was a friend](https://en.wikipedia.org/wiki/Mary_Ellen_Pleasant) and financial supporter of John Brown, and was well known in abolitionist circles. After the Civil War, she took her battles to the courts in the 1860s and won several civil rights victories, one of which was cited and upheld in the 1980s and resulted in her being called \"The Mother of Human Rights in California\"."
 
       [[params.team.row.list.text]]
         description = "The MEPE Fellowship embodies her vision, spirit, and desire to help others. By providing fellows an opportunity to showcase their entrepreneurial talent, fellows can make a significant impact on campus with other students."
