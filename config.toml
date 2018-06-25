@@ -18,7 +18,7 @@ googleAnalytics = "UA-30394282-7"
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Your name"
-  description = "The Mary Ellen Pleasant Entrepreneurship (MEPE) Fellowship is a 10-week virtual internship with The Whether for Spring 2019. [The Whether](https://thewhether.com) is a personalized career guide for college students. It can provide a year's worth of career advising in 30 minutes."
+  description = "The Mary Ellen Pleasant Entrepreneurship (MEPE) Fellowship is a 10-week virtual internship with The Whether for Spring 2019. The Whether provides a year's worth of career advising in 30 minutes."
   # email = "success@betterweekdays.com"
 
   # Link custom assets relative to /static
@@ -98,7 +98,7 @@ googleAnalytics = "UA-30394282-7"
       # url = "http://blackinhistory.tumblr.com/post/61451113376/mary-ellen-pleasant#.WxlEudMvzBJ"
 
       [[params.overview.row.list.text]]
-        textbefore = "The Mary Ellen Pleasant Entrepreneurship (MEPE) Fellowship is a 10-week virtual internship with The Whether for Spring 2019."
+        textbefore = "The Mary Ellen Pleasant Entrepreneurship (MEPE) Fellowship is a 10-week virtual internship with The Whether for Spring 2019. [The Whether](https://thewhether.com) is a personalized career guide that provides a year's worth of career advising in 30 minutes for college students."
 
       [[params.overview.row.list.text]]
         textbefore = "Accepted fellows will be paid up to $2,500 and build a mini-startup focused on student coaching using the "
