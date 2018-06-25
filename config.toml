@@ -215,7 +215,7 @@ googleAnalytics = "UA-30394282-7"
       #description = "2.Share on social media."
 
     [[params.portfolio.row.list]]
-      textbefore = "2. Create a 2-minute video (YouTube, etc.) pitching how you (or your team) would creatively engage 500 students choose a major, pick courses, or prepare for an internship interview."
+      textbefore = "2. Create a 2-minute video (YouTube, etc.) pitching how you (or your team) would creatively engage 500 students and help them choose a major, pick courses, or prepare for an internship interview."
 
     [[params.portfolio.row.list]]
       textbefore = "3. "
@@ -235,13 +235,13 @@ googleAnalytics = "UA-30394282-7"
       description = "1. Any student that attends an MEPE Fellows partner school may apply."
 
     [[params.about.row.list]]
-      description = "2. We recommend students who are exceptional, high-performing who will not graduate prior to Spring 2019."
+      description = "2. We recommend exceptional, high performing students who will not graduate prior to Spring 2019."
 
     [[params.about.row.list]]
       description = "3. We recommend students who have a minimum 3.0 GPA and have demonstrated leadership experience."
 
     [[params.about.row.list]]
-      description = "4. Students are encouraged to apply as a team (not to exceed 5 total members). Each team member must submit their own application. The 'convince 5 friends' criteria in Part 2 of the application can include team members."
+      description = "4. Students are encouraged to apply as a team (not to exceed 5 total members). Each team member must submit their own application. Team members can be among the 5 friends you invite to complete their Assessment."
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -305,7 +305,7 @@ googleAnalytics = "UA-30394282-7"
         description = "[She was a friend](https://en.wikipedia.org/wiki/Mary_Ellen_Pleasant) and financial supporter of John Brown, and was well known in abolitionist circles. After the Civil War, she took her battles to the courts in the 1860s and won several civil rights victories, one of which was cited and upheld in the 1980s and resulted in her being called \"The Mother of Human Rights in California\"."
 
       [[params.team.row.list.text]]
-        description = "The MEPE Fellowship embodies her vision, spirit, and desire to help others. By providing fellows an opportunity to showcase their entrepreneurial talent, fellows can make a significant impact on campus with other students."
+        description = "The MEPE Fellowship embodies her vision, spirit, and desire to help others. With an opportunity to showcase their entrepreneurial talent, fellows can make a significant impact on campus with other students."
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
