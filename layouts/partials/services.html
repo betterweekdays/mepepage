@@ -40,17 +40,43 @@
       </div>
     {{ end }}
 
-
     {{ range .Site.Params.overview.specialrow }}
       <div class="row">
         {{ range .list }}
-            <div class="text-center">
+            <div class="text-center col-md-10 col-md-offset-1">
               <h3 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h3>
+              <div style="margin-top:25px"></div>
             <!--</div>
 
             <div class="col-md-6 col-md-offset-3">-->
               {{ range .text }}
               <p class="text-muted large">{{ .description | markdownify }}</p>
+
+                {{ range .note }}
+                <p class="text-muted middle">{{ .description | markdownify }}</p>
+                {{ end }}
+
+              {{ end }}
+              <div style="margin-top:35px"></div>
+            </div>
+
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ range .Site.Params.overview.rowafter }}
+      <div class="row">
+        {{ range .list }}
+            <div class="text-center">
+              <h3 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h3>
+              <div style="margin-top:25px"></div>
+            </div>
+
+            <div class="col-md-10 col-md-offset-1">
+              {{ range .text }}
+              <p class="text-muted large">{{ .textbefore }}
+              {{ if .url }}<a href="{{ .url | absURL }}">{{ .linktext }}</a>{{ else }}{{ .linktext }}{{ end }}
+              {{ .textafter }}</p>
               {{ end }}
               <div style="margin-top:35px"></div>
             </div>

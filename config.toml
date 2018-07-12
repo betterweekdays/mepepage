@@ -98,13 +98,13 @@ googleAnalytics = "UA-30394282-7"
       # url = "http://blackinhistory.tumblr.com/post/61451113376/mary-ellen-pleasant#.WxlEudMvzBJ"
 
       [[params.overview.row.list.text]]
-        textbefore = "The Mary Ellen Pleasant Entrepreneurship (MEPE) Fellowship is a 10-week virtual internship with The Whether for Spring 2019."
+        textbefore = "The Mary Ellen Pleasant Entrepreneurship (MEPE) Fellowship is a 10-week paid internship & entrepreneurship coaching program with The Whether."
         linktext = "The Whether"
         url = "https://thewhether.com"
-        textafter = " is a personalized career guide that provides a year's worth of career advising in 30 minutes for college students."
+        textafter = " is a minority-owned technology company that helps students of color discover and prepare to meet with companies planning to visit their college campus.  The company has raised $2.5 million to date, generates more than $1 million in revenue, and recently partnered with the Bill & Melinda Gates Foundation to support this innovative initiative."
 
       [[params.overview.row.list.text]]
-        textbefore = "Accepted fellows will be paid up to $2,500 and build a mini-startup focused on student coaching using the "
+        textbefore = "Beginning in Spring 2019, accepted fellows will be paid up to $2,500 and build a mini-startup focused on student coaching using the "
         linktext = "Soft Skills and Values Assessment"
         url = "https://check.thewhether.com/assessment/"
         textafter = "."
@@ -113,7 +113,7 @@ googleAnalytics = "UA-30394282-7"
 
     [[params.overview.row.list]]
       icon = "fa-briefcase"
-      title = "What commitments do I need to make for the internship?"
+      title = "What commitments do I need to make for the Fellowship?"
 
       [[params.overview.row.list.text]]
       textbefore = "Fellows are expected to commit at least 4 hours a week (about 45 minutes a day) to the internship. A 10-week curriculum based on key startup principles will be tied to campus engagement goals. Fellows will also incorporate videos, readings, and quizzes."
@@ -151,13 +151,109 @@ googleAnalytics = "UA-30394282-7"
       [[params.overview.specialrow.list.text]]
       description = "December 10, 2018 - Fellowship Application Deadline"
 
+        [[params.overview.specialrow.list.text.note]]
+        description = "*The fellowship is designed to identify future entrepreneurs that want to leave a legacy. Students who apply early have an advantage because our team will have more time to read their applications. You can submit after the deadline - though keep in mind that the later you apply, the harder it is to get in.*"
+
       [[params.overview.specialrow.list.text]]
       description = "January 14, 2019 - Fellows Announced"
 
       [[params.overview.specialrow.list.text]]
       description = "February 2019 - Internship Starts"
 
+    # [[params.overview.specialrow]]
+
+    # [[params.overview.specialrow.list]]
+      # icon = "fa-briefcase"
+      # title = "What schools are participating?"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Students who attend these MEPE Fellowship Partner schools should apply:"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Albany State University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Benedict College"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Bluefield State College"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Claflin University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Clark Atlanta University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Dillard University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Florida A&M University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Fayetteville State University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Fisk University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Huston Tillotson University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Jackson State University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Langston University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Morehouse College"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Morgan State University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "North Carolina A&T University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "North Carolina Central University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Paul Quinn College"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Prairie View A&M University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Spelman College"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Stillman College"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Tennessee State University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "University of Maryland Eastern Shore"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Winston Salem State University"
+
+      # [[params.overview.specialrow.list.text]]
+      # description = "Xavier University of Louisiana"
+
       #url = "#"
+
+    [[params.overview.rowafter]]
+
+    [[params.overview.rowafter.list]]
+      icon = "fa-graduation-cap"
+      title = "What schools are participating?"
+
+      [[params.overview.rowafter.list.text]]
+      textbefore= "Students who attend these MEPE Fellowship Partner schools should apply: "
+
+      [[params.overview.rowafter.list.text]]
+      textbefore= "Albany State University, Benedict College, Bluefield State College, Claflin University, Clark Atlanta University, Dillard University, Florida A&M University, Fayetteville State University, Fisk University, Huston Tillotson University, Jackson State University, Langston University, Morehouse College, Morgan State University, North Carolina A&T University, North Carolina Central University, Paul Quinn College, Prairie View A&M University, Spelman College, Stillman College, Tennessee State University, the University of Maryland Eastern Shore, Winston Salem State University, and Xavier University of Louisiana."
 
   # Requirements section
   [params.portfolio]
