@@ -67,19 +67,51 @@
     {{ range .Site.Params.overview.rowafter }}
       <div class="row">
         {{ range .list }}
-            <div class="text-center">
-              <h3 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h3>
-              <div style="margin-top:25px"></div>
+          <div class="text-center">
+            <h3 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h3>
+            <div style="margin-top:25px"></div>
+          </div>
+
+          <div class="col-md-10 col-md-offset-1">
+            {{ range .headtext }}
+            <p class="text-muted large">{{ .textbefore }}
+            {{ if .url }}<a href="{{ .url | absURL }}">{{ .linktext }}</a>{{ else }}{{ .linktext }}{{ end }}
+            {{ .textafter }}</p>
+            {{ end }}
+          <!-- <div> -->
+
+            <div class="row">
+              <div class="col-md-4">
+                {{ range.first }}
+                  <p class="text-muted large">{{ .school }}</p>
+                {{ end }}
+              </div>
+              <div class="col-md-4">
+                {{ range.second }}
+                  <p class="text-muted large">{{ .school }}</p>
+                {{ end }}
+              </div>
+              <div class="col-md-4">
+                {{ range.third }}
+                  <p class="text-muted large">{{ .school }}</p>
+                {{ end }}
+              </div>
+              <!-- <div class="col-md-3">
+                {{ range.fourth }}
+                  <p class="text-muted large">{{ .school }}</p>
+                {{ end }}
+              </div> -->
             </div>
 
-            <div class="col-md-10 col-md-offset-1">
-              {{ range .text }}
-              <p class="text-muted large">{{ .textbefore }}
-              {{ if .url }}<a href="{{ .url | absURL }}">{{ .linktext }}</a>{{ else }}{{ .linktext }}{{ end }}
-              {{ .textafter }}</p>
-              {{ end }}
-              <div style="margin-top:35px"></div>
-            </div>
+          <!-- <div class="col-md-3 col-md-offset-1"> -->
+
+            <!-- {{ range .text }}
+            <p class="text-muted large">{{ .textbefore }}
+            {{ if .url }}<a href="{{ .url | absURL }}">{{ .linktext }}</a>{{ else }}{{ .linktext }}{{ end }}
+            {{ .textafter }}</p>
+            {{ end }}
+            <div style="margin-top:35px"></div> -->
+          </div>
 
         {{ end }}
       </div>

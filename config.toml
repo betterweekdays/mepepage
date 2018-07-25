@@ -99,15 +99,22 @@ googleAnalytics = "UA-30394282-7"
 
       [[params.overview.row.list.text]]
         textbefore = "The Mary Ellen Pleasant Entrepreneurship (MEPE) Fellowship is a 10-week paid internship & entrepreneurship coaching program with The Whether."
-        linktext = "The Whether"
-        url = "https://thewhether.com"
-        textafter = " is a minority-owned technology company that helps students of color discover and prepare to meet with companies planning to visit their college campus.  The company has raised $2.5 million to date, generates more than $1 million in revenue, and recently partnered with the Bill & Melinda Gates Foundation to support this innovative initiative."
 
       [[params.overview.row.list.text]]
         textbefore = "Beginning in Spring 2019, accepted fellows will be paid up to $2,500 and build a mini-startup focused on student coaching using the "
         linktext = "Soft Skills and Values Assessment"
         url = "https://check.thewhether.com/assessment/"
         textafter = "."
+
+    [[params.overview.row]]
+
+    [[params.overview.row.list]]
+      title = "What is The Whether?"
+
+      [[params.overview.row.list.text]]
+        linktext = "The Whether"
+        url = "https://thewhether.com"
+        textafter = " is a minority-owned technology company that helps students of color discover and prepare to meet with companies planning to visit their college campus.  The company has raised $2.5 million to date, generates more than $1 million in revenue, and recently partnered with the Bill & Melinda Gates Foundation to support this innovative initiative."
 
     [[params.overview.row]]
 
@@ -236,6 +243,9 @@ googleAnalytics = "UA-30394282-7"
       # description = "University of Maryland Eastern Shore"
 
       # [[params.overview.specialrow.list.text]]
+      # description = "University of West Alabama"
+
+      # [[params.overview.specialrow.list.text]]
       # description = "Winston Salem State University"
 
       # [[params.overview.specialrow.list.text]]
@@ -249,11 +259,138 @@ googleAnalytics = "UA-30394282-7"
       icon = "fa-graduation-cap"
       title = "What schools are participating?"
 
-      [[params.overview.rowafter.list.text]]
-      textbefore= "Students who attend these MEPE Fellowship Partner schools should apply: "
+      [[params.overview.rowafter.list.headtext]]
+        textbefore= "Students who attend these MEPE Fellowship Partner schools should apply: "
 
-      [[params.overview.rowafter.list.text]]
-      textbefore= "Albany State University, Benedict College, Bluefield State College, Claflin University, Clark Atlanta University, Dillard University, Florida A&M University, Fayetteville State University, Fisk University, Huston Tillotson University, Jackson State University, Langston University, Morehouse College, Morgan State University, North Carolina A&T University, North Carolina Central University, Paul Quinn College, Prairie View A&M University, Spelman College, Stillman College, Tennessee State University, the University of Maryland Eastern Shore, Winston Salem State University, and Xavier University of Louisiana."
+      #[[params.overview.rowafter.list.first]]
+        #school = "Albany State University"
+
+        #[[params.overview.rowafter.list.first]]
+        #school = "Clark Atlanta University"
+
+        #[[params.overview.rowafter.list.first]]
+        #school = "Fisk University"
+
+        #[[params.overview.rowafter.list.first]]
+        #school  = "Morehouse College"
+
+        # [[params.overview.rowafter.list.first]]
+        # school = "Paul Quinn College"
+
+        # [[params.overview.rowafter.list.first]]
+        # school  = "Tennessee State University"
+
+        # [[params.overview.rowafter.list.first]]
+        # school  = "Xavier University of Louisiana"
+
+      # [[params.overview.rowafter.list.second]]
+        # school = "Benedict College"
+
+        # [[params.overview.rowafter.list.second]]
+        # school = "Dillard University"
+
+        # [[params.overview.rowafter.list.second]]
+        # school = "Huston Tillotson University"
+
+        # [[params.overview.rowafter.list.second]]
+        # school = "Morgan State University"
+
+        # [[params.overview.rowafter.list.second]]
+        # school = "Prairie View A&M University"
+
+        # [[params.overview.rowafter.list.second]]
+        # school  = "University of Maryland Eastern Shore"
+
+      # [[params.overview.rowafter.list.third]]
+        # school = "Bluefield State College"
+
+        # [[params.overview.rowafter.list.third]]
+        # school = "Florida A&M University"
+
+        # [[params.overview.rowafter.list.third]]
+        # school = "Jackson State University"
+
+        # [[params.overview.rowafter.list.third]]
+        # school = "North Carolina A&T University"
+
+        # [[params.overview.rowafter.list.third]]
+        # school  = "Spelman College"
+
+        # [[params.overview.rowafter.list.third]]
+        # school  = "University of West Alabama"
+
+      # [[params.overview.rowafter.list.fourth]]
+        # school = "Claflin University"
+
+        # [[params.overview.rowafter.list.fourth]]
+        # school = "Fayetteville State University"
+
+        # [[params.overview.rowafter.list.fourth]]
+        # school  = "Langston University"
+
+        # [[params.overview.rowafter.list.fourth]]
+        # school  = "North Carolina Central University"
+
+        # [[params.overview.rowafter.list.fourth]]
+        # school  = "Stillman College"
+
+        # [[params.overview.rowafter.list.fourth]]
+        # school = "Winston Salem State University"
+
+      #[[params.overview.rowafter.list.text]]
+      #textbefore= "Albany State University, Benedict College, Bluefield State College, Claflin University, Clark Atlanta University, Dillard University, Florida A&M University, Fayetteville State University, Fisk University, Huston Tillotson University, Jackson State University, Langston University, Morehouse College, Morgan State University, North Carolina A&T University, North Carolina Central University, Paul Quinn College, Prairie View A&M University, Spelman College, Stillman College, Tennessee State University, the University of Maryland Eastern Shore, University of West Alabama, Winston Salem State University, and Xavier University of Louisiana."
+
+      [[params.overview.rowafter.list.first]]
+      school = "Albany State University"
+      [[params.overview.rowafter.list.first]]
+      school = "Claflin University"
+      [[params.overview.rowafter.list.first]]
+      school = "Florida A&M University"
+      [[params.overview.rowafter.list.first]]
+      school = "Huston Tillotson University"
+      [[params.overview.rowafter.list.first]]
+      school = "Morehouse College"
+      [[params.overview.rowafter.list.first]]
+      school = "North Carolina Central University"
+      [[params.overview.rowafter.list.first]]
+      school = "Spelman College"
+      [[params.overview.rowafter.list.first]]
+      school = "The University of Maryland Eastern Shore"
+      [[params.overview.rowafter.list.first]]
+      school = "Xavier University of Louisiana"
+      [[params.overview.rowafter.list.second]]
+      school = "Benedict College"
+      [[params.overview.rowafter.list.second]]
+      school = "Clark Atlanta University"
+      [[params.overview.rowafter.list.second]]
+      school = "Fayetteville State University"
+      [[params.overview.rowafter.list.second]]
+      school = "Jackson State University"
+      [[params.overview.rowafter.list.second]]
+      school = "Morgan State University"
+      [[params.overview.rowafter.list.second]]
+      school = "Paul Quinn College"
+      [[params.overview.rowafter.list.second]]
+      school = "Stillman College"
+      [[params.overview.rowafter.list.second]]
+      school = "University of West Alabama"
+      [[params.overview.rowafter.list.third]]
+      school = "Bluefield State College"
+      [[params.overview.rowafter.list.third]]
+      school = "Dillard University"
+      [[params.overview.rowafter.list.third]]
+      school = "Fisk University"
+      [[params.overview.rowafter.list.third]]
+      school = "Langston University"
+      [[params.overview.rowafter.list.third]]
+      school = "North Carolina A&T University"
+      [[params.overview.rowafter.list.third]]
+      school = "Prairie View A&M University"
+      [[params.overview.rowafter.list.third]]
+      school = "Tennessee State University"
+      [[params.overview.rowafter.list.third]]
+      school = "Winston Salem State University"
+
 
   # Requirements section
   [params.portfolio]
