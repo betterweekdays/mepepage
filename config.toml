@@ -424,37 +424,34 @@ googleAnalytics = "UA-30394282-7"
       title = "Part 2 - Finish Your Assessment"
 
     [[params.portfolio.row.list]]
-      textbefore = "1. Create an account on"
+      textbefore = "1. Complete your Soft Skills and Values Assessment in "
       linktext = "The Whether"
       url = "https://www.thewhether.com/"
       textafter = "."
 
-    [[params.portfolio.row.list]]
-      textbefore = "2. Favorite the "
-      linktext = "'Mary Ellen Pleasant Entrepreneur Fellowship' article"
-      url = "https://www.thewhether.com/article/26799702"
-      textafter = " in The Whether."
+    [[params.portfolio.row]]
+
+      icon = "fa fa-share"
+      title = "Part 3 - Show Your Marketing Skills"
+      #notice = "Please note that you will receive link to Part 2 only upon successful completion of Part 1."
 
     [[params.portfolio.row.list]]
-      textbefore = "3. Complete your Soft Skills and Values Assessment in The Whether."
+      textbefore = "1. Convince at least 3 friends to complete their Soft Skills and Values Assessment. Use the customized referral link we sent you to keep track of your progress!"
 
     [[params.portfolio.row]]
 
       icon = "fa fa-expand"
-      title = "Part 3 - Show Your Creativity"
+      title = "Part 4 - Show Your Creativity"
       #notice = "Please note that you will receive link to Part 2 only upon successful completion of Part 1."
-
-    [[params.portfolio.row.list]]
-      textbefore = "1. Convince at least 5 friends to complete their Soft Skills and Values Assessment."
 
     #[[params.portfolio.row.list]]
       #description = "2.Share on social media."
 
     [[params.portfolio.row.list]]
-      textbefore = "2. Create a 2-minute video (YouTube, etc.) pitching how you (or your team) would creatively engage 500 students and help them choose a major, pick courses, or prepare for an internship interview."
+      textbefore = "1. Create a 2-minute video (YouTube, etc.) pitching how you (or your team) would creatively engage 500 students and help them choose a major, pick courses, or prepare for an internship interview."
 
     [[params.portfolio.row.list]]
-      textbefore = "3. "
+      textbefore = "2. "
       linktext = "Submit your team and video link"
       url = "https://goo.gl/forms/D4DLQovL9zRkzUys2"
       textafter = "."
