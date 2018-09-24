@@ -607,7 +607,7 @@ googleAnalytics = "UA-30394282-7"
   # Contact section
   # This part is done with additional reference to hugo-elate-theme
   [params.contact]
-    enable = true
+    enable = false
     title = "Contact us"
     # subtitle  = "Lorem ipsum dolor sit amet consectetur."
     # description = "test for color"
