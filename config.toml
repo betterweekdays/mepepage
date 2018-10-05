@@ -50,7 +50,8 @@ googleAnalytics = "UA-30394282-7"
     # Optional logo as brand stored in img/
     logo = "logo.svg"
     overview = "Overview"
-    portfolio = "Apply Now"
+    portfolio = "Apply"
+    section3 = "Additional Info"
     about = "Eligibility & Tips"
     team = "MEP"
 
@@ -108,24 +109,14 @@ googleAnalytics = "UA-30394282-7"
     [[params.overview.row]]
 
     [[params.overview.row.list]]
-      title = "What is The Whether?"
+      icon = "fa-globe"
+      title = "Where is the fellowship?"
+      #img = "1.jpg"
+      #source = "Source: the Paris Review"
+      # url = "http://blackinhistory.tumblr.com/post/61451113376/mary-ellen-pleasant#.WxlEudMvzBJ"
 
       [[params.overview.row.list.text]]
-        linktext = "The Whether"
-        url = "https://thewhether.com"
-        textafter = " is a minority-owned technology company that helps students of color discover and prepare to meet with companies planning to visit their college campus.  The company has raised $2.5 million to date, generates more than $1 million in revenue, and recently partnered with the Bill & Melinda Gates Foundation to support this innovative initiative."
-
-    [[params.overview.row]]
-
-    [[params.overview.row.list]]
-      icon = "fa-briefcase"
-      title = "What commitments do I need to make for the Fellowship?"
-
-      [[params.overview.row.list.text]]
-      textbefore = "Fellows are expected to commit at least 4 hours a week (about 45 minutes a day) to the internship. A 10-week curriculum based on key startup principles will be tied to campus engagement goals. Fellows will also incorporate videos, readings, and quizzes."
-
-      #url = "#"
-
+        textbefore = "The fellowship is virtual. This means you will not need to travel and will participate while in school during the spring 2019 semester."
 
     [[params.overview.row]]
 
@@ -145,317 +136,176 @@ googleAnalytics = "UA-30394282-7"
       [[params.overview.row.list.text]]
       textbefore= "4. A potential trip to an awards dinner celebrating your success and networking with other entrepreneurial professionals at the end of the internship."
 
-      #url = "#"
-
-
-    [[params.overview.specialrow]]
-
-    [[params.overview.specialrow.list]]
-      icon = "fa-briefcase"
-      title = "What dates should I be aware of?"
-
-      [[params.overview.specialrow.list.text]]
-      description = "December 10, 2018 - Fellowship Application Deadline"
-
-        [[params.overview.specialrow.list.text.note]]
-        description = "*The fellowship is designed to identify future entrepreneurs that want to leave a legacy. Students who apply early have an advantage because our team will have more time to read their applications. You can submit after the deadline - though keep in mind that the later you apply, the harder it is to get in.*"
-
-      [[params.overview.specialrow.list.text]]
-      description = "January 14, 2019 - Fellows Announced"
-
-      [[params.overview.specialrow.list.text]]
-      description = "February 2019 - Internship Starts"
-
-    # [[params.overview.specialrow]]
-
-    # [[params.overview.specialrow.list]]
-      # icon = "fa-briefcase"
-      # title = "What schools are participating?"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Students who attend these MEPE Fellowship Partner schools should apply:"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Albany State University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Benedict College"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Bluefield State College"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Claflin University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Clark Atlanta University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Dillard University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Florida A&M University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Fayetteville State University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Fisk University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Huston Tillotson University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Jackson State University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Langston University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Morehouse College"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Morgan State University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "North Carolina A&T University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "North Carolina Central University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Paul Quinn College"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Prairie View A&M University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Spelman College"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Stillman College"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Tennessee State University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "University of Maryland Eastern Shore"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "University of West Alabama"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Winston Salem State University"
-
-      # [[params.overview.specialrow.list.text]]
-      # description = "Xavier University of Louisiana"
-
-      #url = "#"
-
-    [[params.overview.rowafter]]
-
-    [[params.overview.rowafter.list]]
-      icon = "fa-graduation-cap"
-      title = "What schools are participating?"
-
-      [[params.overview.rowafter.list.headtext]]
-        textbefore= "Students who attend these MEPE Fellowship Partner schools should apply: "
-
-      #[[params.overview.rowafter.list.first]]
-        #school = "Albany State University"
-
-        #[[params.overview.rowafter.list.first]]
-        #school = "Clark Atlanta University"
-
-        #[[params.overview.rowafter.list.first]]
-        #school = "Fisk University"
-
-        #[[params.overview.rowafter.list.first]]
-        #school  = "Morehouse College"
-
-        # [[params.overview.rowafter.list.first]]
-        # school = "Paul Quinn College"
-
-        # [[params.overview.rowafter.list.first]]
-        # school  = "Tennessee State University"
-
-        # [[params.overview.rowafter.list.first]]
-        # school  = "Xavier University of Louisiana"
-
-      # [[params.overview.rowafter.list.second]]
-        # school = "Benedict College"
-
-        # [[params.overview.rowafter.list.second]]
-        # school = "Dillard University"
-
-        # [[params.overview.rowafter.list.second]]
-        # school = "Huston Tillotson University"
-
-        # [[params.overview.rowafter.list.second]]
-        # school = "Morgan State University"
-
-        # [[params.overview.rowafter.list.second]]
-        # school = "Prairie View A&M University"
-
-        # [[params.overview.rowafter.list.second]]
-        # school  = "University of Maryland Eastern Shore"
-
-      # [[params.overview.rowafter.list.third]]
-        # school = "Bluefield State College"
-
-        # [[params.overview.rowafter.list.third]]
-        # school = "Florida A&M University"
-
-        # [[params.overview.rowafter.list.third]]
-        # school = "Jackson State University"
-
-        # [[params.overview.rowafter.list.third]]
-        # school = "North Carolina A&T University"
-
-        # [[params.overview.rowafter.list.third]]
-        # school  = "Spelman College"
-
-        # [[params.overview.rowafter.list.third]]
-        # school  = "University of West Alabama"
-
-      # [[params.overview.rowafter.list.fourth]]
-        # school = "Claflin University"
-
-        # [[params.overview.rowafter.list.fourth]]
-        # school = "Fayetteville State University"
-
-        # [[params.overview.rowafter.list.fourth]]
-        # school  = "Langston University"
-
-        # [[params.overview.rowafter.list.fourth]]
-        # school  = "North Carolina Central University"
-
-        # [[params.overview.rowafter.list.fourth]]
-        # school  = "Stillman College"
-
-        # [[params.overview.rowafter.list.fourth]]
-        # school = "Winston Salem State University"
-
-      #[[params.overview.rowafter.list.text]]
-      #textbefore= "Albany State University, Benedict College, Bluefield State College, Claflin University, Clark Atlanta University, Dillard University, Florida A&M University, Fayetteville State University, Fisk University, Huston Tillotson University, Jackson State University, Langston University, Morehouse College, Morgan State University, North Carolina A&T University, North Carolina Central University, Paul Quinn College, Prairie View A&M University, Spelman College, Stillman College, Tennessee State University, the University of Maryland Eastern Shore, University of West Alabama, Winston Salem State University, and Xavier University of Louisiana."
-
-      [[params.overview.rowafter.list.first]]
-      school = "Albany State University"
-      [[params.overview.rowafter.list.first]]
-      school = "Claflin University"
-      [[params.overview.rowafter.list.first]]
-      school = "Florida A&M University"
-      [[params.overview.rowafter.list.first]]
-      school = "Huston Tillotson University"
-      [[params.overview.rowafter.list.first]]
-      school = "Morehouse College"
-      [[params.overview.rowafter.list.first]]
-      school = "North Carolina Central University"
-      [[params.overview.rowafter.list.first]]
-      school = "Spelman College"
-      [[params.overview.rowafter.list.first]]
-      school = "The University of Maryland Eastern Shore"
-      [[params.overview.rowafter.list.first]]
-      school = "Xavier University of Louisiana"
-      [[params.overview.rowafter.list.second]]
-      school = "Benedict College"
-      [[params.overview.rowafter.list.second]]
-      school = "Clark Atlanta University"
-      [[params.overview.rowafter.list.second]]
-      school = "Fayetteville State University"
-      [[params.overview.rowafter.list.second]]
-      school = "Jackson State University"
-      [[params.overview.rowafter.list.second]]
-      school = "Morgan State University"
-      [[params.overview.rowafter.list.second]]
-      school = "Paul Quinn College"
-      [[params.overview.rowafter.list.second]]
-      school = "Stillman College"
-      [[params.overview.rowafter.list.second]]
-      school = "University of West Alabama"
-      [[params.overview.rowafter.list.third]]
-      school = "Bluefield State College"
-      [[params.overview.rowafter.list.third]]
-      school = "Dillard University"
-      [[params.overview.rowafter.list.third]]
-      school = "Fisk University"
-      [[params.overview.rowafter.list.third]]
-      school = "Langston University"
-      [[params.overview.rowafter.list.third]]
-      school = "North Carolina A&T University"
-      [[params.overview.rowafter.list.third]]
-      school = "Prairie View A&M University"
-      [[params.overview.rowafter.list.third]]
-      school = "Tennessee State University"
-      [[params.overview.rowafter.list.third]]
-      school = "Winston Salem State University"
-
 
   # Requirements section
   [params.portfolio]
     enable = true
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
-    title = "Apply Now"
-    # subtitle = "There are 2 parts to the application. You will receive link to Part 2 only upon successful completion of Part 1."
-
-    #[params.portfolio.modal]
-     # client = "Client"
-     # date = "Date"
-     # category = "Category"
-     # buttonText = "Close project"
+    title = "Application Steps"
 
     [[params.portfolio.row]]
 
-    icon = "fa fa-heart"
-    title = "Part 1 - Show Your Interest"
+    title = "Complete within 1 week of starting"
 
     [[params.portfolio.row.list]]
-      textbefore = "1. "
-      linktext = "Submit your name, email and school"
-      url = "https://goo.gl/forms/53FVWFKcA8gTIRK43"
-      textafter = " (Takes 10 seconds)."
+      #textbefore = "1. "
+      #linktext = "Submit your name, email and school"
+      #url = "https://goo.gl/forms/53FVWFKcA8gTIRK43"
+      #textafter = " (Takes 10 seconds)."
+      button = true
+      buttontext = "Submit Your Name"
+      buttonurl = "https://goo.gl/forms/53FVWFKcA8gTIRK43"
     
     [[params.portfolio.row]]
 
-      icon = "fa fa-codepen"
-      title = "Part 2 - Finish Your Assessment"
-
     [[params.portfolio.row.list]]
-      textbefore = "1. Complete your Soft Skills and Values Assessment in "
-      linktext = "The Whether"
-      url = "https://www.thewhether.com/"
-      textafter = "."
+      button = true
+      buttontext = "Complete Your assessment"
+      buttonurl = "https://www.thewhether.com/register/email?utm_source=MEPEwebsite&utm_campaign=MEPE"
 
-    [[params.portfolio.row]]
+  [params.section3]
+      enable = true
+      title = "Additional Information"
 
-      icon = "fa fa-share"
-      title = "Part 3 - Show Your Marketing Skills"
+      [[params.section3.row]]
+
+      [[params.section3.row.list]]
+        title = "What is The Whether?"
+
+        [[params.section3.row.list.text]]
+          linktext = "The Whether"
+          url = "https://thewhether.com"
+          textafter = " is a minority-owned technology company that helps students of color discover and prepare to meet with companies planning to visit their college campus.  The company has raised $2.5 million to date, generates more than $1 million in revenue, and recently partnered with the Bill & Melinda Gates Foundation to support this innovative initiative."
+          
+      [[params.section3.row]]
+      
+          [[params.section3.row.list]]
+            icon = "fa-briefcase"
+            title = "What commitments do I need to make for the Fellowship?"
+      
+            [[params.section3.row.list.text]]
+            textbefore = "Fellows are expected to commit at least 4 hours a week (about 45 minutes a day) to the internship. A 10-week curriculum based on key startup principles will be tied to campus engagement goals. Fellows will also incorporate videos, readings, and quizzes."
+        
+      [[params.section3.specialrow]]
+
+          [[params.section3.specialrow.list]]
+            icon = "fa-briefcase"
+            title = "What dates should I be aware of?"
+
+            [[params.section3.specialrow.list.text]]
+            description = "December 10, 2018 - Fellowship Application Deadline"
+
+              [[params.section3.specialrow.list.text.note]]
+              description = "*The fellowship is designed to identify future entrepreneurs that want to leave a legacy. Students who apply early have an advantage because our team will have more time to read their applications. You can submit after the deadline - though keep in mind that the later you apply, the harder it is to get in.*"
+
+            [[params.section3.specialrow.list.text]]
+            description = "January 14, 2019 - Fellows Announced"
+
+            [[params.section3.specialrow.list.text]]
+            description = "February 2019 - Internship Starts"
+      
+          [[params.section3.rowafter]]
+      
+          [[params.section3.rowafter.list]]
+            icon = "fa-graduation-cap"
+            title = "What schools are participating?"
+      
+            [[params.section3.rowafter.list.headtext]]
+              textbefore= "Students who attend these MEPE Fellowship Partner schools should apply: "
+      
+            [[params.section3.rowafter.list.first]]
+            school = "Albany State University"
+            [[params.section3.rowafter.list.first]]
+            school = "Claflin University"
+            [[params.section3.rowafter.list.first]]
+            school = "Florida A&M University"
+            [[params.section3.rowafter.list.first]]
+            school = "Huston Tillotson University"
+            [[params.section3.rowafter.list.first]]
+            school = "Morehouse College"
+            [[params.section3.rowafter.list.first]]
+            school = "North Carolina Central University"
+            [[params.section3.rowafter.list.first]]
+            school = "Spelman College"
+            [[params.section3.rowafter.list.first]]
+            school = "The University of Maryland Eastern Shore"
+            [[params.section3.rowafter.list.first]]
+            school = "Xavier University of Louisiana"
+            [[params.section3.rowafter.list.second]]
+            school = "Benedict College"
+            [[params.section3.rowafter.list.second]]
+            school = "Clark Atlanta University"
+            [[params.section3.rowafter.list.second]]
+            school = "Fayetteville State University"
+            [[params.section3.rowafter.list.second]]
+            school = "Jackson State University"
+            [[params.section3.rowafter.list.second]]
+            school = "Morgan State University"
+            [[params.section3.rowafter.list.second]]
+            school = "Paul Quinn College"
+            [[params.section3.rowafter.list.second]]
+            school = "Stillman College"
+            [[params.section3.rowafter.list.second]]
+            school = "University of West Alabama"
+            [[params.section3.rowafter.list.third]]
+            school = "Bluefield State College"
+            [[params.section3.rowafter.list.third]]
+            school = "Dillard University"
+            [[params.section3.rowafter.list.third]]
+            school = "Fisk University"
+            [[params.section3.rowafter.list.third]]
+            school = "Langston University"
+            [[params.section3.rowafter.list.third]]
+            school = "North Carolina A&T University"
+            [[params.section3.rowafter.list.third]]
+            school = "Prairie View A&M University"
+            [[params.section3.rowafter.list.third]]
+            school = "Tennessee State University"
+            [[params.section3.rowafter.list.third]]
+            school = "Winston Salem State University"
+
+
+  [params.section4]
+      enable = true
+      title = "Improve Your Chances"
+      #subtitle = "3 sections for history of MEP, section4 of internship (maybe assessment as well) and participating schools respectively"
+      #test = "Test to add another component here"
+
+      [[params.section4.row]]
+
+        icon = "fa fa-share"
+        title = "Show Your Marketing Skills"
+        #notice = "Please note that you will receive link to Part 2 only upon successful completion of Part 1."
+
+      [[params.section4.row.list]]
+        textbefore = "Convince at least 3 friends to complete their Soft Skills and Values Assessment. We'll send you a customized referral link to keep track of your progress!"
+
+      [[params.section4.row]]
+
+      icon = "fa fa-users"
+      title = "Form a Team"
       #notice = "Please note that you will receive link to Part 2 only upon successful completion of Part 1."
 
-    [[params.portfolio.row.list]]
-      textbefore = "1. Convince at least 3 friends to complete their Soft Skills and Values Assessment. Use the customized referral link we sent you to keep track of your progress!"
+    [[params.section4.row.list]]
+      textbefore = "Apply with others as a team! Each team member must submit their own application. Teams can be up to 5 people."
 
-    [[params.portfolio.row]]
+      [[params.section4.row]]
+  
+        icon = "fa fa-expand"
+        title = "Show Your Creativity"
+        #notice = "Please note that you will receive link to Part 2 only upon successful completion of Part 1."
+  
+      #[[params.section4.row.list]]
+        #description = "2.Share on social media."
+  
+      [[params.section4.row.list]]
+        textbefore = "Create a 2-minute video (YouTube, etc.) pitching how you (or your team) would creatively engage 500 students and help them choose a major, pick courses, or prepare for an internship interview."
+  
+      [[params.section4.row.list]]
+        linktext = "Submit your team and video link"
+        url = "https://goo.gl/forms/D4DLQovL9zRkzUys2"
+        textafter = "."
 
-      icon = "fa fa-expand"
-      title = "Part 4 - Show Your Creativity"
-      #notice = "Please note that you will receive link to Part 2 only upon successful completion of Part 1."
-
-    #[[params.portfolio.row.list]]
-      #description = "2.Share on social media."
-
-    [[params.portfolio.row.list]]
-      textbefore = "1. Create a 2-minute video (YouTube, etc.) pitching how you (or your team) would creatively engage 500 students and help them choose a major, pick courses, or prepare for an internship interview."
-
-    [[params.portfolio.row.list]]
-      textbefore = "2. "
-      linktext = "Submit your team and video link"
-      url = "https://goo.gl/forms/D4DLQovL9zRkzUys2"
-      textafter = "."
-    # Elligibilty section
+  # Eligibilty section
   [params.about]
     enable = true
     title = "Eligibility & Tips"
@@ -472,9 +322,6 @@ googleAnalytics = "UA-30394282-7"
 
     [[params.about.row.list]]
       description = "3. We recommend students who have a minimum 3.0 GPA and have demonstrated leadership experience."
-
-    [[params.about.row.list]]
-      description = "4. Students are encouraged to apply as a team (not to exceed 5 total members). Each team member must submit their own application. Team members can be among the 5 friends you invite to complete their Assessment."
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.

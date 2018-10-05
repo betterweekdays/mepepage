@@ -13,21 +13,22 @@
       <div class="row text-center">
 
           <div class="col-md-12">
-            <span class="fa-stack fa-2x">
+              {{ if .icon }}<span class="fa-stack fa-2x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
-            </span>
-            <h3 class="service-heading">{{ .title | markdownify }}</h3>
+            </span>{{ end }}
+            {{ if .title }}<h3 class="service-heading">{{ .title | markdownify }}</h3>{{ end }}
             <p class="text-special-notice middle">{{ if .notice }}{{ .notice | markdownify }}{{ end }}</p>
             <div style="margin-top: 20px"></div>
           </div>
       </div>
 
-      <div class="row col-md-10 col-md-offset-1">
+      <div class="row text-center">
             {{ range .list }}
             <p class="text-muted large">{{ .textbefore }}
             {{ if .url }}<a href="{{ .url | absURL }}">{{ .linktext }}</a>{{ else }}{{ .linktext }}{{ end }}
             {{ .textafter }}</p>
+            {{ if .button }}<a href="{{ .buttonurl | absURL }}" class="page-scroll btn btn-xl">{{ .buttontext }}{{ end }}</a>
             {{ end }}
 
             <div style="margin-top:40px"></div>

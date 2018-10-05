@@ -15,6 +15,14 @@
       {{ partial "portfolio.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.section3.enable }}
+      {{ partial "section3.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.section4.enable }}
+      {{ partial "section4.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.about.enable }}
       {{ partial "about.html" . }}
     {{ end }}

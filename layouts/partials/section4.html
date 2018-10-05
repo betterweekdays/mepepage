@@ -1,0 +1,38 @@
+{{ "<!-- Section4 -->" | safeHTML }}
+<section id="section4" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.section4.title }}{{ . | markdownify }}{{ end }}</h2>
+                <div style="margin-top: 50px"></div>
+                <!-- <h3 class="section-subheading text-muted">{{ with .Site.Params.section4.subtitle }}{{ . | markdownify }}{{ end }}</h3> -->
+            </div>
+        </div>
+
+        {{ range .Site.Params.section4.row }}
+        <div class="row text-center">
+
+            <div class="col-md-12">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
+            </span>
+                <h3 class="service-heading">{{ .title | markdownify }}</h3>
+                <p class="text-special-notice middle">{{ if .notice }}{{ .notice | markdownify }}{{ end }}</p>
+                <div style="margin-top: 20px"></div>
+            </div>
+        </div>
+
+        <div class="row col-md-10 col-md-offset-1">
+            {{ range .list }}
+            <p class="text-muted large">{{ .textbefore }}
+                {{ if .url }}<a href="{{ .url | absURL }}">{{ .linktext }}</a>{{ else }}{{ .linktext }}{{ end }}
+                {{ .textafter }}</p>
+            {{ end }}
+
+            <div style="margin-top:40px"></div>
+        </div>
+        {{ end }}
+
+    </div>
+</section>
