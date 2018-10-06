@@ -162,6 +162,12 @@ googleAnalytics = "UA-30394282-7"
       buttontext = "Complete Your assessment"
       buttonurl = "https://www.thewhether.com/register/email?utm_source=MEPEwebsite&utm_campaign=MEPE"
 
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      textbefore = "After both steps are complete, we'll reach out to do an interview."
+
+
   [params.section3]
       enable = true
       title = "Additional Information"
