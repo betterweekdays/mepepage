@@ -160,7 +160,7 @@ googleAnalytics = "UA-30394282-7"
     [[params.portfolio.row.list]]
       button = true
       buttontext = "Complete Your assessment"
-      buttonurl = "https://www.thewhether.com/register/email?utm_source=MEPEwebsite&utm_campaign=MEPE"
+      buttonurl = "https://thewhether.com/do/r/mepe-application"
 
     [[params.portfolio.row]]
 
