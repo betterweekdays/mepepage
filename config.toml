@@ -50,7 +50,7 @@ googleAnalytics = "UA-30394282-7"
     # Optional logo as brand stored in img/
     logo = "logo.svg"
     overview = "Overview"
-    portfolio = "Apply"
+    portfolio = "2019 Fellows"
     section3 = "Additional Info"
     about = "Eligibility & Tips"
     team = "MEP"
@@ -78,7 +78,7 @@ googleAnalytics = "UA-30394282-7"
     # the 'static/img' folder.
     #title = "Mary Ellen Pleasant Entrepreneur (MEPE) Fellowship"
     subtitle = "Mary Ellen Pleasant Entrepreneur (MEPE) Fellowship"
-    buttonText = "Apply Now"
+    buttonText = "Our 2019 Fellows"
 
 
   # Overview section
@@ -140,33 +140,95 @@ googleAnalytics = "UA-30394282-7"
   # Requirements section
   [params.portfolio]
     enable = true
-    title = "Application Steps"
+    title = "Our 2019 Fellows"
 
     [[params.portfolio.row]]
 
-    title = "Complete within 1 week of starting"
+    # title = "Complete within 1 week of starting"
 
     [[params.portfolio.row.list]]
-      #textbefore = "1. "
-      #linktext = "Submit your name, email and school"
-      #url = "https://goo.gl/forms/53FVWFKcA8gTIRK43"
-      #textafter = " (Takes 10 seconds)."
-      button = true
-      buttontext = "Submit Your Name"
-      buttonurl = "https://goo.gl/forms/53FVWFKcA8gTIRK43"
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548721625/mepe%20bios/ahmed-ali.png"
+      textbefore = "Ahmed Ali - North Carolina A&T"
+      more = "Ahmed Ali is a first-generation immigrant from Khartoum, Sudan and also a first-generation college student at North Carolina Agricultural and Technical State University, where he is pursuing a degree in Business Information Technology. Upon graduation, he aspires to work in the IoT (Internet of Things) space. He has completed internships at Cisco Systems and Tesla in Silicon Valley. He is also an active member of the NAACP, National Society of Black Engineers, Association for Computing Machinery and Men on The Move. Outside of exploring the potential of smart networks, he enjoys playing soccer, traveling with family, giving back to his community and a good game of chess. He is honored to be a Mary Pleasant Ellen Entrepreneurship Fellow and hopes that the fellowship will provide him with the opportunity to further improve his leadership and communication skills."
     
     [[params.portfolio.row]]
 
     [[params.portfolio.row.list]]
-      button = true
-      buttontext = "Complete Your assessment"
-      buttonurl = "https://thewhether.com/do/r/mepe-application"
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548721711/mepe%20bios/carl-wesley.png"
+      textbefore = "Carl Wesley Smith - North Carolina Central"
+      more = "Carl Wesley Smith is from Macclesfield North Carolina and is currently a Senior Mass Communication student at North Carolina Central University. Throughout his college career, he proudly served as President of Students Initiated to Mentor Build & Achieve, Junior Class Senator for the Student Government Association and member of Kappa Alpha Psi Fraternity, Inc. Upon graduation, Carl plans to utilize his skills by being an entrepreneur and sparking other entrepreneurs to expand their businesses."
 
     [[params.portfolio.row]]
 
     [[params.portfolio.row.list]]
-      textbefore = "After both steps are complete, we'll reach out to do an interview."
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548724380/mepe%20bios/deandra-simpson.png"
+      textbefore = "Deandra Simpson - Fayetteville State"
+      more = "Deandra Simpson is a sophomore at Fayetteville State University who is pursuing a B.S in Nursing along with a double minor in Biology and Spanish. Her plans for the future include continuing on to medical school to pursue an advanced degree and become a dermatologist. Following this, she hopes to eventually utilize her entrepreneurial skills to open a private practice intended to cater towards providing medical services to a wide range of people with a focus on marginalized and disadvantaged groups."
 
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+          picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548721635/mepe%20bios/jameerah-ali.png"
+          textbefore = "Jameerah Ali - North Carolina Central"
+          more = "Jameerah Ali from Philadelphia, Pennsylvania is a double major in accounting and finance at North Carolina Central University. During the fall, Jameerah studied abroad in Bangkok, Thailand focusing on her finance courses. Jameerah has held the role the president of NCCU chapter of NABA and a proud member of the Alpha Chi chapter of Alpha Kappa Alpha Sorority, Inc. Upon graduation, Jameerah plans to pursue her CPA in addition to beginning her career."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548721601/mepe%20bios/jasmine-king.png"
+      textbefore = "Jasmine King - Jackson State"
+      more = "Jasmine B. King is from Vicksburg, MS. She is a junior majoring in Political Science with a concentration in Pre-Law at Jackson State University, an HBCU located in the heart of Mississippi! Upon earning her Bachelor of Arts, Jasmine aspires to obtain a Juris Doctorate and begin a career in the corporate sector."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548724661/mepe%20bios/khalia-fernandez.png"
+      textbefore = "Khalia Fernandez - Morgan State"
+      more = "Khalia Fernandez is from Lanham, MD. Khalia is a third year honors student at Morgan State University in Baltimore, MD. Currently pursuing a B.S. in Psychology, she spends her afternoons in the Cognitive, Applied, and Perceptual research lab at Morgan State to better understand her peers and how she can aid in their success during their matriculation at Morgan. After graduating, Khalia hopes to incoporate her passion for psychology and love for research to work in Industrial/Organizational psychology."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548721644/mepe%20bios/lyjiria-lacy.png"
+      textbefore = "Lyjiria Lacy - Dillard"
+      more = "Lyjiria Lacy is a Senior biology major at Dillard University from Long Beach ,California. She will be graduating this spring. Her career goals include becoming a physician assistant , getting her PhD in physician assistant studies and opening up a women’s health clinic that primarily focuses on the health issues that disproportionately affect minority women. At Dillard University Lyjiria is a resident assistant , a member of the the Minority Association for Pre-Med students , Pre Alumni Council and the Beta Kappa Chi National Scientific Honor Society."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548721265/mepe%20bios/markia-brown.png"
+      textbefore = "Markia Brown - Albany State"
+      more = "Markia Brown is a senior Marketing major at Albany State University. She was born and raised in the beautiful Fort Lauderdale, Florida. She loves to shop, step and sew in her free time. Her goal for her career is to become a marketing manager for a retail company and to own a few businesses."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548724380/mepe%20bios/deandra-simpson.png"
+      textbefore = "Deandra Simpson - Fayetteville State"
+      more = "Deandra Simpson is a sophomore at Fayetteville State University who is pursuing a B.S in Nursing along with a double minor in Biology and Spanish. Her plans for the future include continuing on to medical school to pursue an advanced degree and become a dermatologist. Following this, she hopes to eventually utilize her entrepreneurial skills to open a private practice intended to cater towards providing medical services to a wide range of people with a focus on marginalized and disadvantaged groups."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+          picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548725183/mepe%20bios/monica-geter.png"
+          textbefore = "Monica Geter - Benedict"
+          more = "Monica Geter is a Senior Psychology major at the prestigious Benedict College of Columbia, South Carolina. Monica will be graduating with honors in May of 2019. She is from Queens, New York. Her future endeavors after graduating entail, pursuing a Graduate Degree in Public Relations, and obtaining various certifications while being active in the field. Being an entrepreneur in PR is definitely a major goal of hers. Monica is an active member of ABPsi (Aspiring Black Psychologists), Collegiate 100 of BC, SisterAct, The Sigma Alpha Pi chapter of NSLS (National Society of Leadership and Success) and The 20/20 Leaders of America. Ms. Geter, wants to aid in the advancement of young individuals who want to become future leaders in their communities as well. She is ecstatic to be a Mary Ellen Pleasant Entrepreneurship Fellow, and has plans to bring her “Fear of Failure” and “Power of Progression” foundations to light. She exemplifies #TheBESTofBC."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548721615/mepe%20bios/mya-jacobs.png"
+      textbefore = "Mya Jacobs - Xavier University of Louisiana"
+      more = "Mya Jacobs is a second generation college student. More specifically, she’s a Dean’s List, third year Sales and Marketing Major at the Xavier University of Louisiana in New Orleans. She plans to one day oversee a network of her own successful business ventures and non-profit organizations geared to directly impacting the quality of human life. Some of her recent endeavors include: a year long fellowship with local non-profit Fund 17, becoming a trailblazing woman of Delta Sigma Theta Sorority, Incorporated, competing impressively at several competitions at the Kelley School of Business, and securing an internship with a Fortune 500 for the upcoming 2019 summer."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548725337/mepe%20bios/taylor-ford.png"
+      textbefore = "Taylor Ford - North Carolina Central"
+      more = "Taylor Ford is from High Point, North Carolina and is a Junior Business Administration Concentration: Entrepreneurship student at North Carolina Central University. On campus, she is involved in many organizations and extracurricular activities. This includes the Beta Gamma Sigma Honors Society, the Career Services Center as an intern, the Academic Success and Enrichment Services Department as a Tutor, and North Carolina Central University Business School Council. Taylor prides herself on being a team-oriented leader that motivates/encourages others to reach their goals. Taylor has developed these skills by participating in a variety of leadership development programs including the Summer Institute for Emerging Managers and Leaders at the University of California, Irvine/Berkeley and the Goldman Sachs HBCU Leadership Summit in New York, New York, and being a Thurgood Marshall scholar. Taylor’s career goals are to be an executive for a Fortune 500 company, and later on become an entrepreneur."
+
+    [[params.portfolio.row]]
 
   [params.section3]
       enable = true
@@ -308,7 +370,7 @@ googleAnalytics = "UA-30394282-7"
   
       [[params.section4.row.list]]
         linktext = "Submit your team and video link"
-        url = "https://goo.gl/forms/D4DLQovL9zRkzUys2"
+        # url = "https://goo.gl/forms/D4DLQovL9zRkzUys2"
         textafter = "."
 
   # Eligibilty section
