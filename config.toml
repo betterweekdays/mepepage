@@ -253,6 +253,13 @@ googleAnalytics = "UA-30394282-7"
     [[params.portfolio.row]]
 
     [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548891765/mepe%20bios/somto-nweke.png"
+      textbefore = "Somto Nweke - Morgan State"
+      more = "Somto Nweke is a Computer Science Junior at Morgan State University. He is a tech-savvy and tech-curious student who likes to use his research skills, increasing Python and IOS development skills to tackle challenges. He enjoys creating and implementing business development and strategic plans for launching new products. He has represented Morgan State University at Hackathons and is currently part of the SBDC Business Incubator on Campus. In my spare time, he researchs technical details for new products, listen to music, and develop user interface ideas."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
       picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548725337/mepe%20bios/taylor-ford.png"
       textbefore = "Taylor Ford - North Carolina Central"
       more = "Taylor Ford is from High Point, North Carolina and is a Junior Business Administration Concentration: Entrepreneurship student at North Carolina Central University. On campus, she is involved in many organizations and extracurricular activities. This includes the Beta Gamma Sigma Honors Society, the Career Services Center as an intern, the Academic Success and Enrichment Services Department as a Tutor, and North Carolina Central University Business School Council. Taylor prides herself on being a team-oriented leader that motivates/encourages others to reach their goals. Taylor has developed these skills by participating in a variety of leadership development programs including the Summer Institute for Emerging Managers and Leaders at the University of California, Irvine/Berkeley and the Goldman Sachs HBCU Leadership Summit in New York, New York, and being a Thurgood Marshall scholar. Taylor’s career goals are to be an executive for a Fortune 500 company, and later on become an entrepreneur."
@@ -263,6 +270,13 @@ googleAnalytics = "UA-30394282-7"
       picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548768773/mepe%20bios/victoria-bryant.png"
       textbefore = "Victoria Bryant - Paul Quinn"
       more = "Victoria Bryant is a first-generation college student from San Francisco, California. She is a graduating senior at Paul Quinn College located in Dallas, Texas, pursuing a Bachelor of Science in Business Administration with a concentration in Management. Victoria is currently the Student Government Association Senior Class President, the secretary for a women empowerment organization on campus known as Sisters With Vision, and an active Student Ambassador for Paul Quinn College. Victoria has served as a corporate intern for JCPenney and Liberty Mutual Insurance in Plano, Texas. She was also one of the first students to experience the college’s initial satellite campus expansion that piloted in Plano in August of 2018. Victoria has experience working with public, private, and community benefit organizations in San Francisco, in which she has provided valuable insight and thought on the future development of the city’s Southeast sector. Victoria has become a trailblazer in her community by inspiring youth of color to stay in school and pursue higher education upon graduating from high school. Upon graduating from college, Victoria will continue to make an impact in the lives of youth around her by mentoring them and providing assistance in identifying their mission in life after high school graduation. Victoria is ecstatic to represent Paul Quinn College in the first class of MEPE fellows. She is eager to collaborate with the 2019 MEPE Fellows and make this a meaningful experience for all. Victoria is committed to using the valuable knowledge obtained to uplift and support as many HBCU students as possible."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548891059/mepe%20bios/zaire-jenkins.png"
+      textbefore = "Zaire Jenkins - North Carolina Central"
+      more = "Zaire Jenkins was born in Rochester, NY. She moved to the Carolina’s about six years ago. She graduated from Harding University High School in Charlotte, NC. where she received two scholarships. A 1,000 academic scholarship from Communities in Schools and a full ride from Project One. This is her sophomore year at North Carolina Central University studying Psychology. She plans to further her education with a master program in psychology, so that she can start a career in Industrial Psychology. She is also proud to call myself a MEPE fellow for 2019!"
 
     [[params.portfolio.row]]
 
