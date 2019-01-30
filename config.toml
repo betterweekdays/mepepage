@@ -150,7 +150,14 @@ googleAnalytics = "UA-30394282-7"
       picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548721625/mepe%20bios/ahmed-ali.png"
       textbefore = "Ahmed Ali - North Carolina A&T"
       more = "Ahmed Ali is a first-generation immigrant from Khartoum, Sudan and also a first-generation college student at North Carolina Agricultural and Technical State University, where he is pursuing a degree in Business Information Technology. Upon graduation, he aspires to work in the IoT (Internet of Things) space. He has completed internships at Cisco Systems and Tesla in Silicon Valley. He is also an active member of the NAACP, National Society of Black Engineers, Association for Computing Machinery and Men on The Move. Outside of exploring the potential of smart networks, he enjoys playing soccer, traveling with family, giving back to his community and a good game of chess. He is honored to be a Mary Pleasant Ellen Entrepreneurship Fellow and hopes that the fellowship will provide him with the opportunity to further improve his leadership and communication skills."
-    
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548813335/mepe%20bios/biruk-dejene.png"
+      textbefore = "Biruk Abate - Jackson State"
+      more = "Biruk Abate is currently a Junior Computer Engineering major at Jackson State University (JSU). He worked with the Google Ignite CS team to introduce STEM programs to nearby high schools in Jackson, MS, and led the JSU NASA Swarmathon, a team that participates in a NASA hosted robotics competition. His passion for entrepreneurship was sparked when he helped a peer review a pitch for a Startup investment. Biruk wants to build a technology ecosystem across his college campus in support of student entrepreneurship. This coming summer, Biruk will intern at FedEx. Biruk was born in Addis, Ethiopia."
+
     [[params.portfolio.row]]
 
     [[params.portfolio.row.list]]
@@ -161,9 +168,17 @@ googleAnalytics = "UA-30394282-7"
     [[params.portfolio.row]]
 
     [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548813055/mepe%20bios/dorian-holmes.png"
+      textbefore = "Dorian Holmes - North Carolina A&T"
+      more = "Dorian Holmes is a sophomore Computer Science student at North Carolina Agricultural & Technical State University. On campus, Dorian is an active leader as President of the Aggies Cyber Defenders and an e-board member of Association Computational Machinery. He is also a member of the HBCUvc Class 2 Fellow cohort where he is gaining experience in developing a startup ecosystem in communities of minorities and equipping entrepreneurs tools to develop strong businesses. This past summer he interned at Facebook in Menlo Park, CA and will be interning with Microsoft in Seattle, WA during summer of 2019. Dorian was born and raised from St.Louis, Missouri."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
       picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548724380/mepe%20bios/deandra-simpson.png"
       textbefore = "Deandra Simpson - Fayetteville State"
       more = "Deandra Simpson is a sophomore at Fayetteville State University who is pursuing a B.S in Nursing along with a double minor in Biology and Spanish. Her plans for the future include continuing on to medical school to pursue an advanced degree and become a dermatologist. Following this, she hopes to eventually utilize her entrepreneurial skills to open a private practice intended to cater towards providing medical services to a wide range of people with a focus on marginalized and disadvantaged groups."
+
 
     [[params.portfolio.row]]
 
@@ -175,9 +190,23 @@ googleAnalytics = "UA-30394282-7"
     [[params.portfolio.row]]
 
     [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548813798/mepe%20bios/jailyn-richardson.png"
+      textbefore = "Jai’lyn Richardson - Tennessee State"
+      more = "Jai’lyn Richardson is a senior at Tennessee State University from Montgomery, AL. She is majoring in business administration with a concentration in supply chain management. She is a member of the Honors College, Golden Key International Honour Society, and Beta Gamma Sigma. She is also a Community Service Scholar at TSU. She has a passion for serving her community, and she volunteers with multiple organizations including Big Brothers Big Sisters of Middle Tennessee. Jai’lyn is even starting to lay the groundwork for her own non-profit organization. She loves to travel and studied abroad in six European countries in June and July of 2018. Through various workshops and conferences such as the Allen Entrepreneurial Institute, Forte Foundation Women of Color Conference, JP Morgan and Chase Launching Leaders Summit, Bizwomen Mentoring Monday, and the Goldman Sachs HBCU Leadership Conference, Jai’lyn has been able to expand her business acumen and gain an even deeper look into the business and entrepreneurship worlds. Jai’lyn has secured an internship during summer of 2019 at a top financial services firm to gain more experience and explore the finance industry."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
       picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548721601/mepe%20bios/jasmine-king.png"
       textbefore = "Jasmine King - Jackson State"
       more = "Jasmine B. King is from Vicksburg, MS. She is a junior majoring in Political Science with a concentration in Pre-Law at Jackson State University, an HBCU located in the heart of Mississippi! Upon earning her Bachelor of Arts, Jasmine aspires to obtain a Juris Doctorate and begin a career in the corporate sector."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548813651/mepe%20bios/keneisha-wiggan.png"
+      textbefore = "Keneisha Wiggan - Claflin University"
+      more = "Keneisha Deon Wiggan is originally from Portland, Jamaica. She is a goal and change – oriented second year, first generation student at Claflin University. Keneisha is seasoned in the arts of Management Information System with the ability to think critically and be innovative. She is a leader by heart who strongly believes that “Team work makes the dream work”. She also aspires to become a Product Manager, and entrepreneur. In the summer 2018, during her freshman year, Keneisha interned with Microsoft, therefore, she is well on her way to gained sufficient coding and research skills that can help build a successful career for her. She hopes to one day start a company that will be focused on building software programs that can teach anyone who is willing to learn new skills and techniques that they can use to obtain jobs and even a degree. Keneisha is elated and honoured to be representing Claflin University as a 2019 Mary Ellen Pleasant Entrepreneurship fellow."
 
     [[params.portfolio.row]]
 
@@ -203,16 +232,16 @@ googleAnalytics = "UA-30394282-7"
     [[params.portfolio.row]]
 
     [[params.portfolio.row.list]]
-      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548724380/mepe%20bios/deandra-simpson.png"
-      textbefore = "Deandra Simpson - Fayetteville State"
-      more = "Deandra Simpson is a sophomore at Fayetteville State University who is pursuing a B.S in Nursing along with a double minor in Biology and Spanish. Her plans for the future include continuing on to medical school to pursue an advanced degree and become a dermatologist. Following this, she hopes to eventually utilize her entrepreneurial skills to open a private practice intended to cater towards providing medical services to a wide range of people with a focus on marginalized and disadvantaged groups."
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548813523/mepe%20bios/mauriac-alapani.png"
+      textbefore = "Mauriac Alpini - Morgan State"
+      more = "Mauriac Alapini is from Suitland, MD by way of Benin, Cotonou. Mauriac is a second year student at Morgan State University in Baltimore, MD. Mauriac is a first generation college student. He is majoring in Nursing & plan on being a Neurosurgeon. He is fluent in English & French."
 
     [[params.portfolio.row]]
 
     [[params.portfolio.row.list]]
-          picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548725183/mepe%20bios/monica-geter.png"
-          textbefore = "Monica Geter - Benedict"
-          more = "Monica Geter is a Senior Psychology major at the prestigious Benedict College of Columbia, South Carolina. Monica will be graduating with honors in May of 2019. She is from Queens, New York. Her future endeavors after graduating entail, pursuing a Graduate Degree in Public Relations, and obtaining various certifications while being active in the field. Being an entrepreneur in PR is definitely a major goal of hers. Monica is an active member of ABPsi (Aspiring Black Psychologists), Collegiate 100 of BC, SisterAct, The Sigma Alpha Pi chapter of NSLS (National Society of Leadership and Success) and The 20/20 Leaders of America. Ms. Geter, wants to aid in the advancement of young individuals who want to become future leaders in their communities as well. She is ecstatic to be a Mary Ellen Pleasant Entrepreneurship Fellow, and has plans to bring her “Fear of Failure” and “Power of Progression” foundations to light. She exemplifies #TheBESTofBC."
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548725183/mepe%20bios/monica-geter.png"
+      textbefore = "Monica Geter - Benedict"
+      more = "Monica Geter is a Senior Psychology major at the prestigious Benedict College of Columbia, South Carolina. Monica will be graduating with honors in May of 2019. She is from Queens, New York. Her future endeavors after graduating entail, pursuing a Graduate Degree in Public Relations, and obtaining various certifications while being active in the field. Being an entrepreneur in PR is definitely a major goal of hers. Monica is an active member of ABPsi (Aspiring Black Psychologists), Collegiate 100 of BC, SisterAct, The Sigma Alpha Pi chapter of NSLS (National Society of Leadership and Success) and The 20/20 Leaders of America. Ms. Geter, wants to aid in the advancement of young individuals who want to become future leaders in their communities as well. She is ecstatic to be a Mary Ellen Pleasant Entrepreneurship Fellow, and has plans to bring her “Fear of Failure” and “Power of Progression” foundations to light. She exemplifies #TheBESTofBC."
 
     [[params.portfolio.row]]
 
@@ -227,6 +256,13 @@ googleAnalytics = "UA-30394282-7"
       picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548725337/mepe%20bios/taylor-ford.png"
       textbefore = "Taylor Ford - North Carolina Central"
       more = "Taylor Ford is from High Point, North Carolina and is a Junior Business Administration Concentration: Entrepreneurship student at North Carolina Central University. On campus, she is involved in many organizations and extracurricular activities. This includes the Beta Gamma Sigma Honors Society, the Career Services Center as an intern, the Academic Success and Enrichment Services Department as a Tutor, and North Carolina Central University Business School Council. Taylor prides herself on being a team-oriented leader that motivates/encourages others to reach their goals. Taylor has developed these skills by participating in a variety of leadership development programs including the Summer Institute for Emerging Managers and Leaders at the University of California, Irvine/Berkeley and the Goldman Sachs HBCU Leadership Summit in New York, New York, and being a Thurgood Marshall scholar. Taylor’s career goals are to be an executive for a Fortune 500 company, and later on become an entrepreneur."
+
+    [[params.portfolio.row]]
+
+    [[params.portfolio.row.list]]
+      picurl = "https://res.cloudinary.com/better-weekdays/image/upload/c_scale,w_150/r_max/v1548768773/mepe%20bios/victoria-bryant.png"
+      textbefore = "Victoria Bryant - Paul Quinn"
+      more = "Victoria Bryant is a first-generation college student from San Francisco, California. She is a graduating senior at Paul Quinn College located in Dallas, Texas, pursuing a Bachelor of Science in Business Administration with a concentration in Management. Victoria is currently the Student Government Association Senior Class President, the secretary for a women empowerment organization on campus known as Sisters With Vision, and an active Student Ambassador for Paul Quinn College. Victoria has served as a corporate intern for JCPenney and Liberty Mutual Insurance in Plano, Texas. She was also one of the first students to experience the college’s initial satellite campus expansion that piloted in Plano in August of 2018. Victoria has experience working with public, private, and community benefit organizations in San Francisco, in which she has provided valuable insight and thought on the future development of the city’s Southeast sector. Victoria has become a trailblazer in her community by inspiring youth of color to stay in school and pursue higher education upon graduating from high school. Upon graduating from college, Victoria will continue to make an impact in the lives of youth around her by mentoring them and providing assistance in identifying their mission in life after high school graduation. Victoria is ecstatic to represent Paul Quinn College in the first class of MEPE fellows. She is eager to collaborate with the 2019 MEPE Fellows and make this a meaningful experience for all. Victoria is committed to using the valuable knowledge obtained to uplift and support as many HBCU students as possible."
 
     [[params.portfolio.row]]
 
